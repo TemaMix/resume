@@ -1,43 +1,22 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
+repository: TemaMix/resume
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+name: Artem Rumiantcev
+title: RubyOnRails Developer
+email: tema.place+resume@gmail.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  TemaMix
+linkedin_username: artem-rumyantsev-30946036
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,67 +29,104 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name is Artem, I'm 33 years old and I'm a full stack web developer with over 10 years experience
+  currently specialising in RubyOnRails development.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I'm most skilled in: <mark>Ruby</mark>, <mark>Javascript</mark>, <mark>Rails</mark>, <mark>React</mark>.
+
+  During my career I've been mostly working with web applications and I'm used to being responsible for diverse tasks
+  like frontend, backend, code review, team managment, team composition, team leading.
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: Business software for talent acquisition agencies (EPAM)
+        sub_title: Key Developer
+        caption: Aug-2021 - May-2022
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          I resolved tasks related to technical debts and delivered new features related to UI.
+          Established best practices related to testing of microservices.
+          Conducted technical interviews and was responsible for team composition.
+          Resolved old issues from error tracker.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Meeting & Events Tracking System (EPAM)
+        sub_title: Team Lead
+        caption: Jul-2020 - Jun-2021
+        description: | # this will include new lines to allow paragraphs
+          During my time at this project I worked as a RubyOnRails developer and a team lead.
+          I was one of a management team who was in charge of task estimation because we have strict deadlines.
+          Besides that, I was responsible for team composition, task coordination and conducted interviews with new applicants for the project.
+          As a developer I was in charge of code review, implementation new features related to third party integrations, refactoring legacy code.
 
+          <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>, <mark>Dokku</mark>, <mark>React</mark>
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Life Sciences & Healthcare (EPAM)
+        sub_title: Key Developer
+        caption: Nov-2017 - Jun-2020
+        description: | # this will include new lines to allow paragraphs
+          It was my first experience working with such a big international company.
+          I met a lot of security requirements related to authentication and authorization with using <mark>JWT</mark>, <mark>barrier</mark> tokens, antiviruses, vpn and so on.
+          I was part of a team that worked on a suppurt portal. My responsibilities were related to delivering new features and integrations with third party services.
+
+          <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>, <mark>React</mark>, <mark>Oracle</mark>, <mark>PostgreSql</mark>
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title:  Garagetools.ru
+        sub_title: Team Lead
+        caption: Jun-2015 - Mar-2017
+        description: | # this will include new lines to allow paragraphs
+          Garagetools.ru is a huge distributor of industrial tools.
+          I had started working as a key developer and half year got promotion to a team lead.
+          During that time I was working there I was in charge of:
+          - Maintained multiple ongoing projects;
+          - Architected and coded business critical and complex web systems;
+          - Assisted with interview and hiring process for new team members;
+          - Designed new features and services to support client applications;
+          - Estimated effort for architecture, design, and development tasks;
+          - Optimized the application for maximum speed and scalability, and SEO requirements;
+          - Prototyped and created code reviews;
+          - Collaborated with cross-functional teams;
+
+          <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>, <mark>MongoDB</mark>, <mark>Elasticsearch</mark>
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title:  Zengile
+        sub_title: Middle Developer
+        caption: Jun-2012 - May-2014
+        description: |
+          I was part of a team of very talented developers. We had a fun and implemented self-startups.
+          During this time I was in charge of front-end tasks.
+
+          <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>, <mark>Websockets</mark>
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title:  Menutka
+        sub_title: Middle Front-end Developer
+        caption: Jun-2010 - May-2013
+        description: |
+          Menutka was a startup for aggregating and searching restaurants. I attended to the project as front-end developer and
+          was responsible for:
+          - Created and implemented a custom CSS grid system;
+          - Performed HTML and CSS coding of front-end interfaces, including cross-browser support;
+          - Optimized pages for page speed using Google Page Speed (API);
+
+          <mark>JavaScript</mark>, <mark>Knockout.js</mark>, <mark>RubyOnRails</mark>
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
