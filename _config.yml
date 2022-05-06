@@ -29,15 +29,15 @@ linkedin_username: artem-rumyantsev-30946036
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Artem, I'm 33 years old and I'm a full stack web developer with over 10 years experience
-  currently specialising in RubyOnRails development.
+  Hi, my name is Artem, I’m 33 years old, and I’m a full stack web developer with over 10 years experience,
+  currently specializing in RubyOnRails development.
 
   I'm most skilled in: <mark>Ruby</mark>, <mark>Javascript</mark>, <mark>Rails</mark>, <mark>React</mark>.
 
-  During my career I've been mostly working with web applications and I'm used to being responsible for diverse tasks
-  like frontend, backend, code review, team managment, team composition, team leading.
+  During my career I’ve been mostly working with web applications,
+  and I’m used to being responsible for diverse tasks like frontend, backend, code review, team management, team composition, team leading.
 
 content:
   - title: Experience # Title for the section
@@ -63,10 +63,10 @@ content:
         sub_title: Team Lead
         caption: Jul-2020 - Jun-2021
         description: | # this will include new lines to allow paragraphs
-          During my time at this project I worked as a RubyOnRails developer and a team lead.
+          During my time at this project, I worked as a RubyOnRails developer and a team lead.
           I was one of a management team who was in charge of task estimation because we have strict deadlines.
           Besides that, I was responsible for team composition, task coordination and conducted interviews with new applicants for the project.
-          As a developer I was in charge of code review, implementation new features related to third party integrations, refactoring legacy code.
+          As a developer, I was in charge of code review, implementation of new features related to third party integrations, refactoring legacy code.
 
           <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>, <mark>Dokku</mark>, <mark>React</mark>
       - layout: left
@@ -78,7 +78,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           It was my first experience working with such a big international company.
           I met a lot of security requirements related to authentication and authorization with using <mark>JWT</mark>, <mark>barrier</mark> tokens, antiviruses, vpn and so on.
-          I was part of a team that worked on a suppurt portal. My responsibilities were related to delivering new features and integrations with third party services.
+          I was part of a team that worked on a support portal. My responsibilities were related to delivering new features and integrations with third party services.
 
           <mark>Ruby</mark>, <mark>Rails</mark>, <mark>JavaScript</mark>, <mark>React</mark>, <mark>Oracle</mark>, <mark>PostgreSql</mark>
       - layout: left
@@ -90,7 +90,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Garagetools.ru is a huge distributor of industrial tools.
           I had started working as a key developer and half year got promotion to a team lead.
-          During that time I was working there I was in charge of:
+          During that time, I was working there, I was in charge of:
           - Maintained multiple ongoing projects;
           - Architected and coded business critical and complex web systems;
           - Assisted with interview and hiring process for new team members;
@@ -130,7 +130,7 @@ content:
   - title: About regular life
       layout: text
       content: | # this will include new lines to allow paragraphs
-        I like sport and prefer spend time to a gym or a tennis court. When I have time I read books or pass courses related to IT, design, psychology.
+        I like sport and prefer spending time to a gym or a tennis court. When I have time I read books or pass courses related to IT, design, psychology.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
