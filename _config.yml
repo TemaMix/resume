@@ -127,6 +127,10 @@ content:
           - Optimized pages for page speed using Google Page Speed (API);
 
           <mark>JavaScript</mark>, <mark>Knockout.js</mark>, <mark>RubyOnRails</mark>
+  - title: About regular life
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+        I like sport and prefer spend time to a gym or a tennis court. When I have time I read books or pass courses related to IT, design, psychology.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
